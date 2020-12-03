@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*body letra y color de fondo*/
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #f6f7f1;
+}
+
+/*Título, párrafo y indicators li Carousel*/
+
+.header h2 {
+  font-size: 70px;
+  color: #349fa4;
+}
+
+.header p {
+  font-size: 30px;
+  color: #e27d60;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+/* Título de categorías */
+h3 {
+  margin: 16px;
+}
+
+/* Subtítulos de Productos */
+h4 {
+  margin: 20px;
+}
+
+.Inicio {
+  margin: 10px;
+}
+
+/* Color de botones */
+.pink {
+  background-color: #f06292;
+}
+
+/* Color de títulos */
+.celeste {
+  color: #349fa4;
+}
+
+.rosaoscuro {
+  color: #e27d60;
+}
+
+/* Cómo comprar Lista ordenada y párrafo */
+ol {
+  font-weight: 700;
+  color: #349fa4;
+}
+
+.comocomprar p {
+  font-weight: normal;
+  color: black;
+}
+
+/* Imagen de viñeta en lista desordenada */
+.preguntasfrecuentes ul li {
+  font-weight: 700;
+  list-style-type: none;
+  background-image: url(../images/favicon.png);
+  background-position: 0 0;
+  background-size: 1.6rem;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+ul p {
+  padding-left: 40px;
+}
+
+/* Card Precios */
+.cardprecios {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* Fotter */
+footer p {
+  color: #999;
+  line-height: 25px;
+}
+
+footer h2,
+h3 {
+  color: #fff;
+}
+
+footer h2 {
+  font-size: 18px;
+}
+
+.footer-top {
+  background: #111;
+  padding: 80px 0;
+}
+
+.segment-one h3 {
+  color: #fff;
+  letter-spacing: 3px;
+  margin: 10px 0;
+}
+
+.segment-two h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.segment-two h2:before {
+  content: "|";
+  color: #c65039;
+  padding-right: 10px;
+}
+
+.segment-two ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.segment-two ul li {
+  border-bottom: 1px solid #349fa4;
+  line-height: 40px;
+}
+
+.segment-two ul li a {
+  color: #999;
+  text-decoration: none;
+}
+
+.segment-three h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.segment-three h2:before {
+  content: "|";
+  color: #c65039;
+  padding-right: 10px;
+}
+
+.segment-three a {
+  background: #349fa4;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.segment-three a i {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 12px;
+}
+
+.segment-four h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.segment-four h2:before {
+  content: "|";
+  color: #c65039;
+  padding-right: 10px;
+}
+
+.segment-four form input[type="submit"] {
+  background: #f06292;
+  border: none;
+  padding: 3px 15px;
+  margin-left: -5px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer-bottom-text {
+  text-align: center;
+  background: #000;
+  line-height: 75px;
+}
+
+/* Mediaquery Responsive */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .md-mb-30 {
+    margin-bottom: 30px;
+  }
+
+  .col-md-3 {
+    flex: none;
+    max-width: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sm-mb-30 {
+    margin-bottom: 30px;
+  }
+
+  .col-md-3 {
+    flex: none;
+    max-width: none;
+  }
+  .footer-top {
+    padding: 50px 0;
+  }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 414px) {
+  body {
+    line-height: 1;
+  }
+
+  .preguntasfrecuentes ul li {
+    background-size: 1rem;
+  }
+}
